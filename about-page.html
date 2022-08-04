@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Books - BookStocks</title>
+    <link rel="stylesheet" href="books.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+<body>
+    <section id="banner">
+    <div class= "banner-text">
+    <div class="container">
+     <div class="navigationbar">
+    <div class= "logo">
+        <a href="index.html"><img src="images/logopic2.png" width="200px"></a>
+        </div>
+        <nav>
+        <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="about-page.html">About</a></li>
+        </ul>
+        </nav>
+         <a href="cart.html"><img src="images/cadi.png" width="30px" height="30px"></a>
+         <img src="images/menue.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+        </div>
+    </div>
+
+<!---------- About us --------->
+        
+         <div class="small-container about-us">
+            <div class="row">
+                <div class="col-2">
+                    <p>About Us</p>
+            
+                    <br>
+                    <p>Dear readers,We offer huge collection of books in diverse category of Fiction, Non-fiction, Biographies, History, Religions, Self -Help, Children. We also sell in vast collection of Investments and Management, Computers, Engineering, Medical, College and School text references books proposed by different institutes as syllabus across the country. Besides to this, we also offer a large collection of E-Books at very fair pricing.
+                    <br>
+                    We attempt to extend the customer satisfaction by catering easy user-friendly search engine, quick and user-friendly payment options and quicker delivery systems. Upside to all of this, we are disposed to provide exciting offers and pleasant discounts on our books.
+                    <br>
+                    As well, we humbly invite all the sellers around the country to partner with us. We will surely provide you the platform for many sparkling domains and grow the “BookStocks” family.We would like to thank you for shopping with us.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        
+        
+<!---------- footer --------->
+        
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download Our App for Android and IOS mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="images/play%20storelogo-2.png">
+                        <div class="app-logo2">
+                            <img src="images/appstore.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logopic3.png">
+                        <p>Our Purpose Is To Make Books Affordable and Accessible to the Many</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2022 - BookStocks</p>
+            </div>
+        </div>
+<!----------js for toggle menu--------->
+        <script>
+            var MenuItems= document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight = "0px";
+            
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                else
+                    {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+            }
+        </script>      
+</body>
+
+
+</html>
